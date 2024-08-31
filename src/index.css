@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato";
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(-180deg, #a77880, #fffffe);
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #fffcf7;
+}
+
+.card {
+  background-color: rgba(167, 120, 128, 0.5);
+}
